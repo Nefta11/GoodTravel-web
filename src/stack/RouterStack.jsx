@@ -29,12 +29,6 @@ const RouterStack = () => {
             <Route path="/partners" element={<Partners />} />
             <Route path="/verify-distributor" element={<VerifyDistributor />} />
             <Route path="/AdventyPay" element={<AdventyPay />} />
-            {/* <Route path="/xicotepec" element={<Xicotepec />} /> */}
-            {/* <Route path="/festival/:id" element={<FestivalDetailPage />} /> */}
-            {/* <Route path="/hotel/:slug" element={<HotelDetail />} /> */}
-            {/* <Route path="/restaurant/:slug" element={<RestaurantDetail />} /> */}
-            {/* <Route path="/atractivo/:slug" element={<AtractivoDetail />} /> */}
-            {/* <Route path="/xicotepec/tour/:slug" element={<TourDetail />} /> */}
             <Route path="*" element={<Error404 />} />
         </Routes>
     );
