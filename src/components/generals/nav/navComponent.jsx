@@ -136,13 +136,6 @@ const NavComponent = () => {
                             submenu
                             submenuItems={newsSubmenuItems}
                         />
-                        {/* <NavItem
-                            to="/xicotepec"
-                            icon={isMobile ? GiVillage : null}
-                            label={<span>¡Xicotepec!<img src={rehilete} alt="Rehilete" className="label-rehilete-spin" /></span>}
-                            menuOpen={menuOpen}
-                            isActive={location.pathname === '/xicotepec'}
-                        /> */}
                     </ul>
                 </div>
             </div>
