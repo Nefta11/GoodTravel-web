@@ -8,12 +8,6 @@ import Distribuidor from '../pages/Distribuidor';
 import Partners from '../pages/Partners';
 import VerifyDistributor from '../pages/VerifyDistributor';
 import AdventyPay from '../pages/adventyPay/AdventyPay';
-// import Xicotepec from '../pages/Xicotepec';
-// import FestivalDetailPage from '../pages/xicotepec/FestivalDetailPage';
-// import HotelDetail from '../pages/xicotepec/HotelDetail';
-// import RestaurantDetail from '../pages/xicotepec/RestaurantDetail';
-// import AtractivoDetail from '../pages/xicotepec/AtractivoDetail';
-// import TourDetail from '../pages/xicotepec/TourDetail';
 import Error404 from '../pages/pagError/Error404';
 
 const RouterStack = () => {
