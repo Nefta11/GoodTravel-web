@@ -24,7 +24,7 @@ const TravelForm = () => {
             console.log(`${key}: ${value}`);
         }
 
-        emailjs.sendForm('service_zmd74hu', 'template_nkyigza', e.target, '9CUfOoMbPp6o8R4bH')
+            emailjs.sendForm('service_zmd74hu', 'template_nkyigza', e.target, 'API_KEY_CORREOS')
             .then((result) => {
                 console.log("Success:", result.text);
                 setIsSubmitting(false);
